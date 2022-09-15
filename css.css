@@ -1,0 +1,38 @@
+body{
+    background-color: whitesmoke;
+    vertical-align: 2px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.geral {
+    background-color: white;
+    width: 960px;
+    height: auto;
+    margin: 0.2px;
+    padding: 0px auto;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.table{
+    width: 200px;
+    height: auto;
+    align-items: center;
+}
+
+.titulo{
+text-align: center;
+color:black;
+font-size: 14pt;
+font-family: Arial;
+
+}
+
+th{
+    text-align: center;
+    font-family: arial;
+    font-size: 12pt;
+    
+}
