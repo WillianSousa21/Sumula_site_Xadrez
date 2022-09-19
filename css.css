@@ -17,7 +17,7 @@ body{
 }
 
 .table{
-    width: 200px;
+    width: 960px;
     height: auto;
     align-items: center;
 }
@@ -36,3 +36,11 @@ th{
     font-size: 12pt;
     
 }
+
+tr{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+}
+
+.no{ border: 0;}
