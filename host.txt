@@ -1,0 +1,53 @@
+        AULA DIA 20-09
+       da Pagina <------requisição
+servidor <-----------------Cliente
+servidor ---> internet-----> cliente
+servidor---------------> cliente
+^   |     resposta ---->Site
+|   |----------------------------------
+|                                      |
+|manda pro servidor                    |
+|                                      |
+|        www.etrert4rterte.com         |
+|        html                          |
+|                                      |
+|        login[___________]            |
+|       senha[___________]             |
+|                                      |
+-------[enviar]                        |
+                                       |
+        html                           |
+                                       |
+---------------------------------------|
+|
+|
+v
+pagina nova
+                |
+                |
+                V
+_____________________________
+|www.formulario.com          |
+|                            |
+|html                        |
+|        formulario          |
+|  Jogador[___________]      |
+|moviment[___________]       | 
+|             [enviar]       |
+|                            |
+|/html                       |
+|____________________________| 
+                |
+                |
+                V
+_____________________________
+|www.formulario.com          |
+|                            |
+|html                        |
+|        formulario          |
+|  Jogador[jOÃO CARLOS]      |
+|movimentos[E5 -CAVALO]      | 
+|             [enviar]       |
+|                            |
+|/html                       |
+|____________________________| 
