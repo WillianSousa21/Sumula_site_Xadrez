@@ -38,9 +38,13 @@ th{
 }
 
 tr{
-    width: 60px;
+
     height: 30px;
     text-align: center;
 }
 
+td{
+    width: 200px;
+}
 .no{ border: 0;}
+:placeholder-shown{text-align: center;}
