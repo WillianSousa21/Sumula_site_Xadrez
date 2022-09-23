@@ -4,7 +4,12 @@ body{
     margin: 0 auto;
     padding: 0;
 }
-
+.cabecario{
+    width: 960px;
+    height: 100px;
+    background-color: rgb(179, 174, 174);
+    font-size: 30px;
+}
 .geral {
     background-color: white;
     width: 960px;
@@ -48,3 +53,41 @@ td{
 }
 .no{ border: 0;}
 :placeholder-shown{text-align: center;}
+
+.cadastro1{
+    text-align: center;
+    border: solid;
+    border-radius: 20px 20px 20px 20px;
+    width: 400px;
+    height: auto;
+    margin: 2px;
+    padding: 2px auto;
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+.cadastro2{
+    text-align: center;
+    border: solid;
+    border-radius: 20px 20px 20px 20px;
+    width: 400px;
+    height: auto;
+    margin: 2px;
+    padding: 12px 12;
+    display: block;
+    margin: 0 auto;
+    float: right;
+}
+
+.cadastro3{
+    text-align: center;
+    border: solid;
+    border-radius: 2px 2px 2px 2px;
+    width: 400px;
+    height: auto;
+    margin: 2px;
+    padding: 12px 12;
+    display: block;
+    margin: 0 auto;
+    float: right;
+}
