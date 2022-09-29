@@ -5,61 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css.css">
-    <title>Cadastro</title>
+    <title>Cadastro Torneio</title>
 </head>
 <body>
-    <div class="cabecario">Cadastro</div>
     <div class="geral">
+        <div class="cabecario">Súmula Xadrez</div>
+    <div class="menublock">
+        <ul class="menu">   
+            <li><a href="/suumula_xadrez.html">Suumula Xadrez</a></li>     
+                <li><a href="/Cadastro.html"> Cadastro Torneio</a></li>
+                <li><a href="/cadastro_jogadores.html"> Cadastro Jogadores</a></li>
+                <li><a href="/cadastro_jogadas.html"> Cadastro Jogadas</a></li>
+            </ul></div>  
     <div class="cadastro1">
     <table border="1">
-        <thead>Cadastro Torneio</thead>
+        <thead><h1>Cadastro Torneio</h1></thead>
         <tr>
-            <td>Nome do torneio </td>
-            <td>
-                <input type="text" placeholder="insira o nome do torneio" class="no"></td>
+            <th>Nome do torneio </th>
+            <th>Data</th>
+            <th>UF</th>
+           
         </tr>
         <tr>
-            <td>Data</td>
+             <td>
+                <input type="text" placeholder="insira o nome do torneio" class="no"></td>
             <td><input type="text" placeholder="digite a data" class="no"></td>
+            <td><input type="text" placeholder="insira o nome do torneio" class="no"></td>
+        
         </tr>
     </table>
    
     <input type="submit" value="enviar">
 </div> 
 
-<div class="cadastro2">
-<table border="1">
-        <thead>
-            Cadastro jogadores
-        </thead>
-        <tr>
-            <td>Nome Jogador 1</td>
-            <td><input type="text" name="" id="" placeholder="digite o valor" class="no"></td>
-        </tr>
-        <tr>
-            <td>Data de Nascimento</td>
-            <td><input type="text" name="" id="" placeholder="digite o valor" class="no"></td>
-        </tr>    
-    </table>
-        <input type="submit" value="enviar">
-    </div>
 
-    <div class="cadastro2">
-        <table border="1">
-                <thead>
-                    Cadastro jogadores
-                </thead>
-                <tr>
-                    <td>Nome Jogador 2</td>
-                    <td><input type="text" name="" id="" placeholder="digite o valor" class="no"></td>
-                </tr>
-                <tr>
-                    <td>Data de Nascimento</td>
-                    <td><input type="text" name="" id="" placeholder="digite o valor" class="no"></td>
-                </tr>    
-            </table>
-                <input type="submit" value="enviar">
-            </div>
-    </div>
 </body>
 </html>

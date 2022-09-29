@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: rgb(77, 77, 77);
     vertical-align: 2px;
     margin: 0 auto;
     padding: 0;
@@ -7,13 +7,59 @@ body{
 .cabecario{
     width: 960px;
     height: 100px;
-    background-color: rgb(179, 174, 174);
-    font-size: 30px;
+    background-color: rgb(67, 63, 89);
+    font-size: 90px;
+    color: whitesmoke;
+
+    text-align: center;
+    padding: 0px auto;
+    display: block;
+    margin: 0 auto;   
 }
+.menublock{
+    width: 960px;
+    height:50px;
+    padding: 0px auto;  
+    font-size: 20px;
+    margin: 0 auto; 
+    background-color: rgb(152, 39, 39);
+}
+
+.menublock{
+    width: 960px;
+    height: 60px;
+   float: inline-end;
+  display: block;
+   
+   
+    
+}
+
+ul.menu {
+    padding:  0;
+    margin-left: px;
+    }
+
+ul.menu li{
+        display: inline;
+   }
+ul.menu li a{
+        background: black;
+        color:blanchedalmond;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 15px 0 15px 0;
+    }
+    
+    ul.menu li a:hover{
+        background: whitesmoke;
+        color: blue;
+    }
+    
 .geral {
     background-color: white;
     width: 960px;
-    height: auto;
+    height: 1925px;
     margin: 0.2px;
     padding: 0px auto;
     display: block;
@@ -57,6 +103,18 @@ td{
 .cadastro1{
     text-align: center;
     border: solid;
+    border-radius: 5px 20px 5px 20px;
+    width: 625px;
+    height: auto;
+    margin: 2px;
+    padding: 2px auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.cadastro-jogadas{
+    text-align: center;
+    border: solid;
     border-radius: 20px 20px 20px 20px;
     width: 400px;
     height: auto;
@@ -65,29 +123,4 @@ td{
     display: block;
     margin: 0 auto;
     float: left;
-}
-.cadastro2{
-    text-align: center;
-    border: solid;
-    border-radius: 20px 20px 20px 20px;
-    width: 400px;
-    height: auto;
-    margin: 2px;
-    padding: 12px 12;
-    display: block;
-    margin: 0 auto;
-    float: right;
-}
-
-.cadastro3{
-    text-align: center;
-    border: solid;
-    border-radius: 2px 2px 2px 2px;
-    width: 400px;
-    height: auto;
-    margin: 2px;
-    padding: 12px 12;
-    display: block;
-    margin: 0 auto;
-    float: right;
 }
