@@ -8,9 +8,9 @@ body{
     width: 960px;
     height: 100px;
     background-color: rgb(67, 63, 89);
+    border-radius: 15px 15px 0px 0px;
     font-size: 90px;
     color: whitesmoke;
-
     text-align: center;
     padding: 0px auto;
     display: block;
@@ -59,18 +59,21 @@ ul.menu li a{
 .geral {
     background-color: white;
     width: 960px;
-    height: 1925px;
+    height: 1945px;
     margin: 0.2px;
-    padding: 0px auto;
+    border: solid;
+    border-radius: 20px 20px 0px 0px;
+
     display: block;
     margin: 0 auto;
     
 }
-
 .table{
     width: 960px;
     height: auto;
     align-items: center;
+    padding: 2px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 .titulo{
@@ -85,6 +88,7 @@ th{
     text-align: center;
     font-family: arial;
     font-size: 12pt;
+    border-radius: 15px 15px 15px 15px;
     
 }
 
@@ -96,14 +100,13 @@ tr{
 
 td{
     width: 200px;
+    border-radius: 15px 15px 15px 15px;
 }
 .no{ border: 0;}
 :placeholder-shown{text-align: center;}
 
 .cadastro1{
     text-align: center;
-    border: solid;
-    border-radius: 5px 20px 5px 20px;
     width: 625px;
     height: auto;
     margin: 2px;
@@ -114,8 +117,6 @@ td{
 
 .cadastro-jogadas{
     text-align: center;
-    border: solid;
-    border-radius: 20px 20px 20px 20px;
     width: 400px;
     height: auto;
     margin: 2px;
@@ -124,3 +125,16 @@ td{
     margin: 0 auto;
     float: left;
 }
+.enviar {
+    display: inline;
+}
+.enviar{
+    background: black;
+    color:blanchedalmond;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.enviar:hover{
+    background: whitesmoke;
+    color: blue;}

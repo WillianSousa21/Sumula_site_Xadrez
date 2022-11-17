@@ -13,12 +13,27 @@
     <div class="menublock">
         <ul class="menu">  
             <li><a href="/suumula_xadrez.html">Sumula Xadrez</a></li>      
-                <li><a href="/Cadastro.html"> Cadastro Torneio</a></li>
+                <li><a href="/Cadastro_torneio.html"> Cadastro Torneio</a></li>
                 <li><a href="/cadastro_jogadores.html"> Cadastro Jogadores</a></li>
                 <li><a href="/cadastro_jogadas.html"> Cadastro Jogadas</a></li>
             </ul></div>  
-<div class="cadastro1">
-<table border="1">
+<div class="cadastro1">     
+    <table border="1">
+        <thead><h1>Cadastro Partida</h1></thead>
+        <tr>
+            <th>Número da mesa </th>
+            <th>Data</th>
+            <th class="no"></th>
+           
+        </tr>
+        <tr>
+            <td><input type="text" placeholder="" class="no"></td>
+            <td><input type="datetime" placeholder="" class="no"></td>
+            <td><input type="text" placeholder="" class="no"></td>
+        
+        </tr>
+    </table>
+    <table border="1">
         <thead>
            <h1>Cadastro jogadores</h1>
         </thead>
@@ -36,12 +51,17 @@
             <td><input type="text" name="" id="" placeholder="digite a nome" class="no"></td>
         </tr>
         <tr>
+            <td>Pais</td>
+            <td><input type="text" name="" id="" placeholder="" class="no"></td>
+            <td><input type="text" name="" id="" placeholder="" class="no"></td>
+        </tr>
+        <tr>
             <td>Data de Nascimento</td>
             <td><input type="text" name="" id="" placeholder="digite a data" class="no"></td>
             <td><input type="text" name="" id="" placeholder="digite o valor" class="no"></td>
         </tr>        
     </table>
-        <input type="submit" value="enviar">
+        <input type="submit" value="enviar" class="enviar">
     </div>
            
     </div>
