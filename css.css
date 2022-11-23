@@ -16,24 +16,11 @@ body{
     display: block;
     margin: 0 auto;   
 }
-.menublock{
-    width: 960px;
-    height:50px;
-    padding: 0px auto;  
-    font-size: 20px;
-    margin: 0 auto; 
-    background-color: rgb(152, 39, 39);
+.menu2{
+    background-color: ;
 }
 
-.menublock{
-    width: 960px;
-    height: 60px;
-   float: inline-end;
-  display: block;
-   
-   
-    
-}
+
 
 ul.menu {
     padding:  0;
