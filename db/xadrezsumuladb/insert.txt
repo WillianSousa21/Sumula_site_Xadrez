@@ -1,0 +1,11 @@
+table JOGADAS (id_movimento, MOVIMENTOS, temp_jogada)
+
+table JOGADORESx	(id_jogadores, nome, pais, dat_nascimento)
+
+table Move_esp (idMove_esp, abr_esp, exp_move)
+
+table Partidax (idPartida, jogadores_idjogadores, Mesa, data_hora, jogador_2)
+
+table Pecas x (nome_peca, Sigla, quantidade, rating)
+
+table torneio (idtorneio,UF, PAIS, data_evento )

@@ -1,0 +1,63 @@
+CREATE TABLE JOGADAS (
+  id_movimento INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  MOVIMENTOS VARCHAR(10) BINARY NOT NULL,
+  temp_jogada TIME NOT NULL,
+  PRIMARY KEY(id_movimento)
+);
+
+CREATE TABLE Jogador1 (
+  idJogador1 INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  jogadores_idjogadores  INTEGER UNSIGNED NOT NULL,
+  PRIMARY KEY(idJogador1),
+  INDEX Jogador1_FKIndex1(jogadores_idjogadores )
+);
+
+CREATE TABLE jogador2 (
+  idjogador2 INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  jogadores_idjogadores  INTEGER UNSIGNED NOT NULL,
+  PRIMARY KEY(idjogador2),
+  INDEX jogador2_FKIndex1(jogadores_idjogadores )
+);
+
+CREATE TABLE jogadores (
+  idjogadores  INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  torneio_idtorneio INTEGER UNSIGNED NOT NULL,
+  nome  VARCHAR(45) NULL,
+  pais  VARCHAR(20) NULL,
+  data de nascimento DATE NULL,
+  PRIMARY KEY(idjogadores ),
+  INDEX jogadores _FKIndex1(torneio_idtorneio)
+);
+
+CREATE TABLE Partida (
+  idPartida INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  JOGADAS_id_movimento INTEGER UNSIGNED NOT NULL,
+  jogador2_idjogador2 INTEGER UNSIGNED NOT NULL,
+  Jogador1_idJogador1 INTEGER UNSIGNED NOT NULL,
+  Mesa INTEGER UNSIGNED NULL,
+  data_hora DATETIME NULL,
+  PRIMARY KEY(idPartida),
+  INDEX Partida_FKIndex1(Jogador1_idJogador1),
+  INDEX Partida_FKIndex2(jogador2_idjogador2),
+  INDEX Partida_FKIndex3(JOGADAS_id_movimento)
+);
+
+CREATE TABLE Peças (
+  codigopecas  INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  JOGADAS_id_movimento INTEGER UNSIGNED NOT NULL,
+  nome_peca VARCHAR(10) NULL,
+  Sigla CHAR(2) NULL,
+  quantidade INTEGER UNSIGNED NULL,
+  PRIMARY KEY(codigopecas ),
+  INDEX PEÇAS _FKIndex1(JOGADAS_id_movimento)
+);
+
+CREATE TABLE torneio (
+  idtorneio INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  UF VARCHAR(5) NOT NULL,
+  PAIS INTEGER UNSIGNED NOT NULL,
+  data_evento DATE NOT NULL,
+  PRIMARY KEY(idtorneio)
+);
+
+
