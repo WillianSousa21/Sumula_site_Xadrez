@@ -8,8 +8,14 @@
 </head>
 <body>
     <div class="geral">
-        <h1>Longin</h1>
-
+    <form action="principal.php" method="post">    
+    <h1>Login</h1>
+<label> Digite seu Usuario</label><br>
+<input type="text" name="usuario" id=""><br>
+<label>Digite sua senha</label><br>
+<input type="password" name="senha" id=""><br>
+<input type="submit" value="enviar">
+    </form>
     </div>
 </body>
 </html>

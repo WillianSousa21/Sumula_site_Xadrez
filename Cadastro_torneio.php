@@ -27,8 +27,8 @@
            
         </tr>
         <tr>
-            <td><input type="text" placeholder="insira o nome do torneio" class="no"></td>
-            <td><input type="datetime" placeholder="digite a data e hora" class="no"></td>
+            <td><input type="text" name="nometorneio" placeholder="insira o nome do torneio" class="no"></td>
+            <td><input type="datetime" name="datatorneio" placeholder="digite a data e hora" class="no"></td>
             <td><input type="text" placeholder="insira o nome do torneio" class="no"></td>
         
         </tr>
