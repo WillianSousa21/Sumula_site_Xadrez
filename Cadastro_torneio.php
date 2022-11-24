@@ -12,7 +12,7 @@
         <div class="cabecario">Súmula Xadrez</div>
         <div class="menu2">
         <ul class="menu">  
-            <li><li><a href="index.php">Sumula Xadrez</a></li>        
+            <li><li><a href="sumula.php">Sumula Xadrez</a></li>        
                 <li><a href="Cadastro_torneio.php"> Cadastro Torneio</a></li>
                 <li><a href="cadastro_jogadores.php"> Cadastro Jogadores</a></li>
                 <li><a href="cadastro_jogadas.php"> Cadastro Jogadas</a></li>
