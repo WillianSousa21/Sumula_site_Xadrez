@@ -12,24 +12,25 @@
         <div class="cabecario">Súmula Xadrez</div>
         <div class="menu2">
         <ul class="menu">  
-            <li><a href="index.html">Sumula Xadrez</a></li>      
-                <li><a href="Cadastro_torneio.html"> Cadastro Torneio</a></li>
-                <li><a href="cadastro_jogadores.html"> Cadastro Jogadores</a></li>
-                <li><a href="cadastro_jogadas.html"> Cadastro Jogadas</a></li>
+            <li><li><a href="index.php">Sumula Xadrez</a></li>        
+                <li><a href="Cadastro_torneio.php"> Cadastro Torneio</a></li>
+                <li><a href="cadastro_jogadores.php"> Cadastro Jogadores</a></li>
+                <li><a href="cadastro_jogadas.php"> Cadastro Jogadas</a></li>
             </ul></div>
-<div class="cadastro1">     
+<div class="cadastro1"> 
+<form action="retaguarda.php" method="post">    
     <table border="1">
         <thead><h1>Cadastro Partida</h1></thead>
         <tr>
             <th>Número da mesa </th>
-            <th>Data</th>
             <th class="no"></th>
+            <th>Data</th>
            
         </tr>
         <tr>
             <td><input type="text" placeholder="" class="no"></td>
+            <td class="no"></td>
             <td><input type="datetime" placeholder="" class="no"></td>
-            <td><input type="text" placeholder="" class="no"></td>
         
         </tr>
     </table>
@@ -62,6 +63,7 @@
         </tr>        
     </table>
         <input type="submit" value="enviar" class="enviar">
+    </form>
     </div>
            
     </div>

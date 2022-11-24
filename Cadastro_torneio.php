@@ -10,13 +10,13 @@
 <body>
     <div class="geral">
         <div class="cabecario">Súmula Xadrez</div>
-    <div class="menublock">
-        <ul class="menu">   
-            <li><a href="index.html">Suumula Xadrez</a></li>     
-                <li><a href="Cadastro_torneio.html"> Cadastro Torneio</a></li>
-                <li><a href="cadastro_jogadores.html"> Cadastro Jogadores</a></li>
-                <li><a href="cadastro_jogadas.html"> Cadastro Jogadas</a></li>
-            </ul></div>  
+        <div class="menu2">
+        <ul class="menu">  
+            <li><li><a href="index.php">Sumula Xadrez</a></li>        
+                <li><a href="Cadastro_torneio.php"> Cadastro Torneio</a></li>
+                <li><a href="cadastro_jogadores.php"> Cadastro Jogadores</a></li>
+                <li><a href="cadastro_jogadas.php"> Cadastro Jogadas</a></li>
+            </ul></div>
     <div class="cadastro1"><form action="/suumula_xadrez.html" method="post">
     <table border="1">
         <thead><h1>Cadastro Torneio</h1></thead>

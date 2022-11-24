@@ -11,13 +11,13 @@
     
     <div class="geral">
         <div class="cabecario">Súmula Xadrez</div>
-    <div class="menublock">
-        <ul class="menu">
-                <li><a href="index.html">Sumula Xadrez</a></li>        
-                <li><a href="Cadastro_torneio.html"> Cadastro Torneio</a></li>
-                <li><a href="cadastro_jogadores.html"> Cadastro Jogadores</a></li>
-                <li><a href="cadastro_jogadas.html"> Cadastro Jogadas</a></li>
-            </ul></div>      
+        <div class="menu2">
+        <ul class="menu">  
+            <li><li><a href="index.php">Sumula Xadrez</a></li>        
+                <li><a href="Cadastro_torneio.php"> Cadastro Torneio</a></li>
+                <li><a href="cadastro_jogadores.php"> Cadastro Jogadores</a></li>
+                <li><a href="cadastro_jogadas.php"> Cadastro Jogadas</a></li>
+            </ul></div>     
             <table border="1">
                 <thead><tr>
                     <th><div class="titulo"> Sumula de xadrez</div></th> <th>Torneio Virtual:</th> 

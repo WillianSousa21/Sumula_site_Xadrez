@@ -10,15 +10,15 @@
 <body>
     <div class="geral">
         <div class="cabecario">Súmula Xadrez</div>
-    <div class="menublock">
-        <ul class="menu">   
-            <li><a href="index.html">Sumula Xadrez</a></li>     
-                <li><a href="Cadastro.html"> Cadastro Torneio</a></li>
-                <li><a href="cadastro_jogadores.html"> Cadastro Jogadores</a></li>
-                <li><a href="cadastro_jogadas.html"> Cadastro Jogadas</a></li>
-            </ul></div>  
+        <div class="menu2">
+        <ul class="menu">  
+            <li><li><a href="index.php">Sumula Xadrez</a></li>        
+                <li><a href="Cadastro_torneio.php"> Cadastro Torneio</a></li>
+                <li><a href="cadastro_jogadores.php"> Cadastro Jogadores</a></li>
+                <li><a href="cadastro_jogadas.php"> Cadastro Jogadas</a></li>
+            </ul></div>
 <div class="cadastro1">
-<form action="/suumula_xadrez.html" method="post">
+<form action="retaguarda.php" method="post">
     <table border="1">
         <thead>
            <h1> Cadastro jogadores</h1>
@@ -33,7 +33,7 @@
         </tr>
         <tr>
             <td>Movimentos</td>
-            <td><input type="text" name="" id="" placeholder="digite a jogada" class="no"></td>
+            <td><input type="text" name="movimento" id="" placeholder="digite a jogada" class="no"></td>
             <td><input type="text" name="" id="" placeholder="digite a jogada" class="no"></td>
         </tr>
         <tr>
