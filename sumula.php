@@ -1,3 +1,26 @@
+<?php
+$torneio = $_POST["nometorneio"];
+$datatorneio= $_POST["datatorneio"];
+$uftornio = $_POST["uftorneio"];
+
+
+
+
+
+
+
+
+
+
+
+
+?>
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -21,7 +44,10 @@
             <table border="1">
                 <thead><tr>
                     <th><div class="titulo"> Sumula de xadrez</div></th> <th>Torneio Virtual:</th> 
-                    <td class="no"></td> <th>Data:</th> <td class="no"></td>
+                    <td class="no"><?php 
+                    echo $torneio?>
+                    </td> <th>Data:</th> <td class="no"><?php 
+                    echo $datatorneio?></td>
                 </tr></thead>
         <div class="table">
         <!--para criar tabelas de forma rapida <table>tr>th*3-->
@@ -36,9 +62,9 @@
             <thead>
             <tr>
                 <th>Movimentos</th> 
-                <th class="no"></th> 
-                <td class="no"></td>
-                 <th class="no"></th>
+                <th class="no"> </th> 
+                <td class="no"> </td>
+                <th class="no"> </th>
                 
             </tr>
         </thead>

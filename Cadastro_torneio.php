@@ -17,7 +17,7 @@
                 <li><a href="cadastro_jogadores.php"> Cadastro Jogadores</a></li>
                 <li><a href="cadastro_jogadas.php"> Cadastro Jogadas</a></li>
             </ul></div>
-    <div class="cadastro1"><form action="/suumula_xadrez.html" method="post">
+    <div class="cadastro1"><form action="sumula.php" method="post">
     <table border="1">
         <thead><h1>Cadastro Torneio</h1></thead>
         <tr>
@@ -28,8 +28,8 @@
         </tr>
         <tr>
             <td><input type="text" name="nometorneio" placeholder="insira o nome do torneio" class="no"></td>
-            <td><input type="datetime" name="datatorneio" placeholder="digite a data e hora" class="no"></td>
-            <td><input type="text" placeholder="insira o nome do torneio" class="no"></td>
+            <td><input type="date" name="datatorneio" placeholder="digite a data e hora" class="no"></td>
+            <td><input type="text" nome="uftorneio" placeholder="insira o UF do torneio" class="no"></td>
         
         </tr>
     </table>

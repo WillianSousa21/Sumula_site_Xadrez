@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,6 +9,12 @@
     <title>Sumula</title>
 </head>
 <body>
+    <?php 
+
+$usuario = $_POST["usuario"];
+$senha =  $_POST["senha"];
+
+?>
     <div class="geral">
         <div class="cabecario">Súmula Xadrez</div>
         <div class="menu2">
@@ -16,25 +23,10 @@
                 <li><a href="Cadastro_torneio.php"> Cadastro Torneio</a></li>
                 <li><a href="cadastro_jogadores.php"> Cadastro Jogadores</a></li>
                 <li><a href="cadastro_jogadas.php"> Cadastro Jogadas</a></li>
-            </ul></div>
-            <div class="cadastro1"> 
-    <form action="principal.php" method="post">    
-    <table border="1">
-        <thead><h1>Login</h1></thead>
-        <tr>
-            <th> Digite seu Usuario </th>
-            <th class="no"></th>
-            <th>Digite sua Senha</th>
-        </tr>
-        <tr>
-            <td><input type="text" name="usuario" placeholder="" class="no"></td>
-            <td class="no"></td>
-            <td><input type="password" name="senha" placeholder="" class="no"></td>
-        
-        </tr>
-    </table>
-<input type="submit" value="enviar" class="enviar">
-   </form>
-            </div></div>
+            </ul></div>    
+            <?php
+            echo "<h1>Seja bem vindo,$usuario<h1><br><h2> Para iniciar selecione uma pagina acima<h2><br>";
+            ?>
+</div>
 </body>
 </html>

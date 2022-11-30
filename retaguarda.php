@@ -1,3 +1,0 @@
-<?php
-$nometorneio = $_POST();
-?>
