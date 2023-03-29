@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="geral">
-        <div class="cabecario">Súmula Xadrez</div>
+        <div class="cabecario">Súmula Xadrez 2023</div>
         <div class="menu2">
         <ul class="menu">  
             <li><li><a href="sumula.php">Sumula Xadrez</a></li>        
